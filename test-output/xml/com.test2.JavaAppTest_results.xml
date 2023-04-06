@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-0bbcb572-6fd4-4e6b-8822-3e99063e164f"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="27.987">
+    <properties></properties>
+
+
+
+            <testcase
+                name="signIn"
+                time="10.358"
+                classname="com.test2.JavaAppTest">
+            </testcase>
+            <testcase
+                name="setUp"
+                time="6.036"
+                classname="com.test2.JavaAppTest">
+            </testcase>
+            <testcase
+                name="registerMethod"
+                time="0.819"
+                classname="com.test2.JavaAppTest">
+            </testcase>
+            <testcase
+                name="fillForm"
+                time="6.533"
+                classname="com.test2.JavaAppTest">
+            </testcase>
+            <testcase
+                name="teardown"
+                time="4.241"
+                classname="com.test2.JavaAppTest">
+            </testcase>
+</testsuite>

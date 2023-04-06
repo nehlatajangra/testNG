@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgMavenSuite" >
+  <test name="TestNgMavenTest">
+    
+    <classes>
+      <!-- <groups>
+        <run>
+          <include name="TestGroup"/>
+        </run>
+      </groups> -->
+      <class name="com.test2.TitleTest"/>
+      <class name="com.test2.ProAppTest"/>
+      <!-- <class name="com.test2.LoginTest"/> -->
+
+
+      
+    </classes>
+  </test>
+</suite>

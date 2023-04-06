@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-c37ecda7-4658-4a31-beb7-4a33d027f99e"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.513">
+    <properties></properties>
+
+
+
+            <testcase
+                name="signOut"
+                time="1.267"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="signInClick"
+                time="0.067"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="registerMethod"
+                time="1.708"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="signIn"
+                time="5.682"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="tearDown"
+                time="2.221"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="addClose"
+                time="2.807"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="fillForm"
+                time="6.225"
+                classname="com.test2.ProAppTest">
+            </testcase>
+            <testcase
+                name="setUp"
+                time="5.536"
+                classname="com.test2.ProAppTest">
+            </testcase>
+</testsuite>
