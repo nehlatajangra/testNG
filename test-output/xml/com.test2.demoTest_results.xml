@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNGTest-77b256b3-1600-4882-ba52-110cdfddc317"
+<testsuite name="TestNGTest-c0e98287-90f3-46dd-9d16-fd57f969186a"
            tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.060">
+           time="0.003">
     <properties></properties>
 
 
 
             <testcase
+                name="process"
+                time="0.001"
+                classname="com.test2.demoTest">
+            </testcase>
+            <testcase
                 name="end"
-                time="0.059"
+                time="0.002"
                 classname="com.test2.demoTest">
             </testcase>
             <testcase
                 name="start"
                 time="0.000"
-                classname="com.test2.demoTest">
-            </testcase>
-            <testcase
-                name="process"
-                time="0.001"
                 classname="com.test2.demoTest">
             </testcase>
 </testsuite>
