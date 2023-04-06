@@ -8,45 +8,19 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">TestNgMavenSuite</th></tr>
-<tr><td><a href="#t0">TestNgMavenTest</a></td><td class="num">6</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,408</td><td></td><td></td></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,895</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNgMavenSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestNgMavenTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test2.ProAppTest</td><td><a href="#m0">signIn</a></td><td rowspan="1">1680762590834</td><td rowspan="1">2030</td></tr><tr><th colspan="4">TestNgMavenTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.test2.ProAppTest</td><td><a href="#m1">signOut</a></td><td rowspan="1">1680762592868</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">tearDown</a></td><td rowspan="1">1680762592869</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestNgMavenTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.test2.ProAppTest</td><td><a href="#m3">addClose</a></td><td rowspan="1">1680762580516</td><td rowspan="1">10316</td></tr><tr class="passedeven"><td><a href="#m4">fillForm</a></td><td rowspan="1">1680762574263</td><td rowspan="1">6170</td></tr><tr class="passedeven"><td><a href="#m5">registerMethod</a></td><td rowspan="1">1680762573515</td><td rowspan="1">746</td></tr><tr class="passedeven"><td><a href="#m6">setUp</a></td><td rowspan="1">1680762570582</td><td rowspan="1">2929</td></tr><tr class="passedeven"><td><a href="#m7">signInClick</a></td><td rowspan="1">1680762580436</td><td rowspan="1">79</td></tr><tr class="passedodd"><td rowspan="1">com.test2.TitleTest</td><td><a href="#m8">checkTitle</a></td><td rowspan="1">1680762570562</td><td rowspan="1">16</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.test2.JavaAppTest</td><td><a href="#m0">fillForm</a></td><td rowspan="1">1680764409537</td><td rowspan="1">6547</td></tr><tr class="passedeven"><td><a href="#m1">registerMethod</a></td><td rowspan="1">1680764408703</td><td rowspan="1">831</td></tr><tr class="passedeven"><td><a href="#m2">setUp</a></td><td rowspan="1">1680764401503</td><td rowspan="1">7194</td></tr><tr class="passedeven"><td><a href="#m3">signIn</a></td><td rowspan="1">1680764416087</td><td rowspan="1">6301</td></tr><tr class="passedeven"><td><a href="#m4">teardown</a></td><td rowspan="1">1680764422390</td><td rowspan="1">4203</td></tr><tr class="passedodd"><td rowspan="1">com.test2.TitleTest</td><td><a href="#m5">checkTitle</a></td><td rowspan="1">1680764430171</td><td rowspan="1">15</td></tr><tr class="passedeven"><td rowspan="3">com.test2.demoTest</td><td><a href="#m6">end</a></td><td rowspan="1">1680764401490</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m7">process</a></td><td rowspan="1">1680764401500</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m8">start</a></td><td rowspan="1">1680764401502</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>TestNgMavenTest</h2><h3 id="m0">com.test2.ProAppTest#signIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [187fc54e3603c66c2de549411147f6ef, findElement {using=name, value=userName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.113 (9d935b6bb55e..., userDataDir: C:\Users\NehLata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 187fc54e3603c66c2de549411147f6ef
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.test2.ProAppTest.signIn(ProAppTest.java:137)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test2.ProAppTest#signOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.test2.ProAppTest.signOut() on instance com.test2.ProAppTest@50a638b5 depends on not successfully finished methods 
-[com.test2.ProAppTest.signIn() on instance com.test2.ProAppTest@50a638b5]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test2.ProAppTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.test2.ProAppTest.tearDown() on instance com.test2.ProAppTest@50a638b5 depends on not successfully finished methods 
-[com.test2.ProAppTest.signOut() on instance com.test2.ProAppTest@50a638b5]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.test2.ProAppTest#addClose</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.test2.ProAppTest#fillForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.test2.ProAppTest#registerMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.test2.ProAppTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.test2.ProAppTest#signInClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.test2.TitleTest#checkTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.test2.JavaAppTest#fillForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test2.JavaAppTest#registerMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test2.JavaAppTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test2.JavaAppTest#signIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test2.JavaAppTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test2.TitleTest#checkTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test2.demoTest#end</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.test2.demoTest#process</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.test2.demoTest#start</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

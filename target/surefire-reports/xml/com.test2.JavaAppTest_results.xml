@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNGTest-2d3ce524-04e8-431c-8b2d-925b5fcdbd46"
+<testsuite name="Surefire test"
            tests="5"
            failures="0"
            errors="0"
            skipped="0"
-           time="20.125">
+           time="25.076">
     <properties></properties>
 
 
 
             <testcase
-                name="setUp"
-                time="3.293"
+                name="registerMethod"
+                time="0.831"
                 classname="com.test2.JavaAppTest">
             </testcase>
             <testcase
                 name="signIn"
-                time="5.777"
-                classname="com.test2.JavaAppTest">
-            </testcase>
-            <testcase
-                name="teardown"
-                time="4.231"
+                time="6.301"
                 classname="com.test2.JavaAppTest">
             </testcase>
             <testcase
                 name="fillForm"
-                time="5.979"
+                time="6.547"
                 classname="com.test2.JavaAppTest">
             </testcase>
             <testcase
-                name="registerMethod"
-                time="0.845"
+                name="teardown"
+                time="4.203"
+                classname="com.test2.JavaAppTest">
+            </testcase>
+            <testcase
+                name="setUp"
+                time="7.194"
                 classname="com.test2.JavaAppTest">
             </testcase>
 </testsuite>

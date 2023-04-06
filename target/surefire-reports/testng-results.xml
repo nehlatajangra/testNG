@@ -1,202 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="1" skipped="2">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-06T11:59:23 IST" name="TestNgMavenSuite" finished-at="2023-04-06T11:59:57 IST" duration-ms="33408">
+  <suite started-at="2023-04-06T12:30:01 IST" name="Surefire suite" finished-at="2023-04-06T12:30:30 IST" duration-ms="28895">
     <groups>
+      <group name="TestGroup">
+        <method signature="demoTest.end()[pri:0, instance:com.test2.demoTest@4b168fa9]" name="end" class="com.test2.demoTest"/>
+        <method signature="demoTest.process()[pri:0, instance:com.test2.demoTest@4b168fa9]" name="process" class="com.test2.demoTest"/>
+      </group> <!-- TestGroup -->
     </groups>
-    <test started-at="2023-04-06T11:59:23 IST" name="TestNgMavenTest" finished-at="2023-04-06T11:59:57 IST" duration-ms="33408">
-      <class name="com.test2.ProAppTest">
-        <test-method signature="setUp()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:30 IST" name="setUp" finished-at="2023-04-06T11:59:33 IST" duration-ms="2929" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="registerMethod()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:33 IST" name="registerMethod" finished-at="2023-04-06T11:59:34 IST" depends-on-methods="com.test2.ProAppTest.setUp" duration-ms="746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerMethod -->
-        <test-method signature="fillForm()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:34 IST" name="fillForm" finished-at="2023-04-06T11:59:40 IST" depends-on-methods="com.test2.ProAppTest.registerMethod" duration-ms="6170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillForm -->
-        <test-method signature="signInClick()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:40 IST" name="signInClick" finished-at="2023-04-06T11:59:40 IST" depends-on-methods="com.test2.ProAppTest.fillForm" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signInClick -->
-        <test-method signature="addClose()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:40 IST" name="addClose" finished-at="2023-04-06T11:59:50 IST" depends-on-methods="com.test2.ProAppTest.signInClick" duration-ms="10316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addClose -->
-        <test-method signature="signIn()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:50 IST" name="signIn" finished-at="2023-04-06T11:59:52 IST" depends-on-methods="com.test2.ProAppTest.addClose" duration-ms="2030" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [187fc54e3603c66c2de549411147f6ef, findElement {using=name, value=userName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.113 (9d935b6bb55e..., userDataDir: C:\Users\NehLata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 187fc54e3603c66c2de549411147f6ef]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [187fc54e3603c66c2de549411147f6ef, findElement {using=name, value=userName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.113 (9d935b6bb55e..., userDataDir: C:\Users\NehLata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 187fc54e3603c66c2de549411147f6ef
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at com.test2.ProAppTest.signIn(ProAppTest.java:137)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method signature="signOut()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:52 IST" name="signOut" finished-at="2023-04-06T11:59:52 IST" depends-on-methods="com.test2.ProAppTest.signIn" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.test2.ProAppTest.signOut() on instance com.test2.ProAppTest@50a638b5 depends on not successfully finished methods 
-[com.test2.ProAppTest.signIn() on instance com.test2.ProAppTest@50a638b5]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.test2.ProAppTest.signOut() on instance com.test2.ProAppTest@50a638b5 depends on not successfully finished methods 
-[com.test2.ProAppTest.signIn() on instance com.test2.ProAppTest@50a638b5]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method signature="tearDown()[pri:0, instance:com.test2.ProAppTest@50a638b5]" started-at="2023-04-06T11:59:52 IST" name="tearDown" finished-at="2023-04-06T11:59:52 IST" depends-on-methods="com.test2.ProAppTest.signOut" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.test2.ProAppTest.tearDown() on instance com.test2.ProAppTest@50a638b5 depends on not successfully finished methods 
-[com.test2.ProAppTest.signOut() on instance com.test2.ProAppTest@50a638b5]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.test2.ProAppTest.tearDown() on instance com.test2.ProAppTest@50a638b5 depends on not successfully finished methods 
-[com.test2.ProAppTest.signOut() on instance com.test2.ProAppTest@50a638b5]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test2.ProAppTest -->
+    <test started-at="2023-04-06T12:30:01 IST" name="Surefire test" finished-at="2023-04-06T12:30:30 IST" duration-ms="28895">
       <class name="com.test2.TitleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test2.TitleTest@c267ef4]" started-at="2023-04-06T11:59:23 IST" name="setup" finished-at="2023-04-06T11:59:30 IST" duration-ms="6822" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test2.TitleTest@78b729e6]" started-at="2023-04-06T12:30:26 IST" name="setup" finished-at="2023-04-06T12:30:30 IST" duration-ms="3574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTitle()[pri:1, instance:com.test2.TitleTest@c267ef4]" started-at="2023-04-06T11:59:30 IST" name="checkTitle" finished-at="2023-04-06T11:59:30 IST" duration-ms="16" status="PASS">
+        <test-method signature="checkTitle()[pri:1, instance:com.test2.TitleTest@78b729e6]" started-at="2023-04-06T12:30:30 IST" name="checkTitle" finished-at="2023-04-06T12:30:30 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test2.TitleTest@c267ef4]" started-at="2023-04-06T11:59:52 IST" name="teardown" finished-at="2023-04-06T11:59:57 IST" duration-ms="4240" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test2.TitleTest@78b729e6]" started-at="2023-04-06T12:30:30 IST" name="teardown" finished-at="2023-04-06T12:30:30 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.test2.TitleTest -->
-    </test> <!-- TestNgMavenTest -->
-  </suite> <!-- TestNgMavenSuite -->
+      <class name="com.test2.JavaAppTest">
+        <test-method signature="setUp()[pri:0, instance:com.test2.JavaAppTest@6f3b5d16]" started-at="2023-04-06T12:30:01 IST" name="setUp" finished-at="2023-04-06T12:30:08 IST" duration-ms="7194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerMethod()[pri:0, instance:com.test2.JavaAppTest@6f3b5d16]" started-at="2023-04-06T12:30:08 IST" name="registerMethod" finished-at="2023-04-06T12:30:09 IST" depends-on-methods="com.test2.JavaAppTest.setUp" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMethod -->
+        <test-method signature="fillForm()[pri:0, instance:com.test2.JavaAppTest@6f3b5d16]" started-at="2023-04-06T12:30:09 IST" name="fillForm" finished-at="2023-04-06T12:30:16 IST" depends-on-methods="com.test2.JavaAppTest.registerMethod" duration-ms="6547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method signature="signIn()[pri:0, instance:com.test2.JavaAppTest@6f3b5d16]" started-at="2023-04-06T12:30:16 IST" name="signIn" finished-at="2023-04-06T12:30:22 IST" depends-on-methods="com.test2.JavaAppTest.fillForm" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="teardown()[pri:0, instance:com.test2.JavaAppTest@6f3b5d16]" started-at="2023-04-06T12:30:22 IST" name="teardown" finished-at="2023-04-06T12:30:26 IST" depends-on-methods="com.test2.JavaAppTest.fillForm" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test2.JavaAppTest -->
+      <class name="com.test2.demoTest">
+        <test-method signature="end()[pri:0, instance:com.test2.demoTest@4b168fa9]" started-at="2023-04-06T12:30:01 IST" name="end" finished-at="2023-04-06T12:30:01 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method signature="process()[pri:0, instance:com.test2.demoTest@4b168fa9]" started-at="2023-04-06T12:30:01 IST" name="process" finished-at="2023-04-06T12:30:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process -->
+        <test-method signature="start()[pri:0, instance:com.test2.demoTest@4b168fa9]" started-at="2023-04-06T12:30:01 IST" name="start" finished-at="2023-04-06T12:30:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+      </class> <!-- com.test2.demoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

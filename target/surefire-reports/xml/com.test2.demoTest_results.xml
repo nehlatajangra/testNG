@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNGTest-2d3ce524-04e8-431c-8b2d-925b5fcdbd46"
+<testsuite name="Surefire test"
            tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.002">
+           time="0.006">
     <properties></properties>
 
 
 
             <testcase
-                name="process"
-                time="0.001"
+                name="start"
+                time="0.000"
                 classname="com.test2.demoTest">
             </testcase>
             <testcase
                 name="end"
-                time="0.001"
+                time="0.005"
                 classname="com.test2.demoTest">
             </testcase>
             <testcase
-                name="start"
-                time="0.000"
+                name="process"
+                time="0.001"
                 classname="com.test2.demoTest">
             </testcase>
 </testsuite>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="1" name="TestSuite" time="22.292" errors="0" skipped="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.74" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\NehLata\Documents\maven_project\test2"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\NehLata\Documents\GitHub\testNG-2"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,13 +15,12 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\NehLata\Documents\maven_project\test2"/>
+    <property name="user.dir" value="C:\Users\NehLata\Documents\GitHub\testNG-2"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\NehLata\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="cp437"/>
@@ -45,7 +44,7 @@
     <property name="java.class.path" value="C:\Program Files\apache-maven-3.9.1\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,47 +60,13 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.test2.TitleTest" name="checkTitle" time="0.016"/>
-  <testcase classname="com.test2.ProAppTest" name="setUp" time="2.93"/>
-  <testcase classname="com.test2.ProAppTest" name="registerMethod" time="0.746"/>
-  <testcase classname="com.test2.ProAppTest" name="fillForm" time="6.171"/>
-  <testcase classname="com.test2.ProAppTest" name="signInClick" time="0.078"/>
-  <testcase classname="com.test2.ProAppTest" name="addClose" time="10.317"/>
-  <testcase classname="com.test2.ProAppTest" name="signIn" time="2.034">
-    <failure message="invalid session id
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [187fc54e3603c66c2de549411147f6ef, findElement {using=name, value=userName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.113 (9d935b6bb55e..., userDataDir: C:\Users\NehLata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 187fc54e3603c66c2de549411147f6ef" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [187fc54e3603c66c2de549411147f6ef, findElement {using=name, value=userName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.113 (9d935b6bb55e..., userDataDir: C:\Users\NehLata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 187fc54e3603c66c2de549411147f6ef
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.test2.ProAppTest.signIn(ProAppTest.java:137)
-</failure>
-  </testcase>
-  <testcase classname="com.test2.ProAppTest" name="signOut" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.test2.ProAppTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="end" classname="com.test2.demoTest" time="0.006"/>
+  <testcase name="process" classname="com.test2.demoTest" time="0"/>
+  <testcase name="start" classname="com.test2.demoTest" time="0"/>
+  <testcase name="setUp" classname="com.test2.JavaAppTest" time="7.196"/>
+  <testcase name="registerMethod" classname="com.test2.JavaAppTest" time="0.831"/>
+  <testcase name="fillForm" classname="com.test2.JavaAppTest" time="6.548"/>
+  <testcase name="signIn" classname="com.test2.JavaAppTest" time="6.302"/>
+  <testcase name="teardown" classname="com.test2.JavaAppTest" time="4.203"/>
+  <testcase name="checkTitle" classname="com.test2.TitleTest" time="0.015"/>
 </testsuite>
